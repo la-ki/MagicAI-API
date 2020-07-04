@@ -2,9 +2,10 @@
   "name": "magic-ai-api",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "nodemon server"
+    "start": "node server",
+    "dev": "nodemon server"
   },
   "author": "Lazar Kostic",
   "license": "MIT",
